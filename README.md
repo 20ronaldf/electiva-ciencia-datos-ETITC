@@ -37,17 +37,6 @@ python -m venv venv
 # Activar el entorno virtual:
 # En Windows:
 .\venv\Scripts\activate
-# En Linux/Mac:
-source venv/bin/activate
-
-Instalar dependencias:
-
-bashCopypip install -r requirements.txt
-
-Configurar Jupyter Notebook con el entorno virtual:
-
-bashCopy# Instalar ipykernel
-pip install ipykernel
 
 # Crear kernel para Jupyter
 python -m ipykernel install --user --name=ecommerce_analysis
